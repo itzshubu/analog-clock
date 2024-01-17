@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img{
+    height: 40vw;
+    /* width: ; */
+}
+.main1{
+    position: relative;
+    margin: 6vh 28vw;
+}
+.hours{
+    height: 12vw;
+    width: 1vw;
+    position: absolute;
+    margin: auto;
+    top: 8.2vw;
+    left: 19.5vw;
+    background-color:black;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    transform-origin: bottom;
+}
+.minut{
+    height: 13.5vw;
+    width: 1vw;
+    position: absolute;
+    margin: auto;
+    top: 7vw;
+    left: 19.5vw;
+    background-color:black;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    transform-origin: bottom;
+}
+.second{
+    height: 14.4vw;
+    width: 1vw;
+    position: absolute;
+    margin: auto;
+    top: 6vw;
+    left: 19.5vw;
+    border-top-right-radius: 1vh;
+    border-top-left-radius: 1vh;
+    background-color:black;
+    transform-origin: bottom;
+}
+.dot{
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    background-color: rgb(0, 0, 0);
+    top: 18.9vw;
+    left: 18.5vw;
+    border-radius: 2vw;
+    /* margin: auto; */
+}
